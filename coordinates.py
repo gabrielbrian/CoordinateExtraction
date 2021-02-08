@@ -8,7 +8,7 @@ root = tk.Tk()
 def getLoc():
 	text_box.delete(1.0, "end-1c")
 	Dir = Picfolder_entry.get()
-	text_box.insert('1.0',"-------coordinates-------")
+	text_box.insert('1.0',"      -------coordinates-------")
 	def dms_to_dd(gps_coords, gps_coords_ref):
 	    d, m, s =  gps_coords
 	    dd = d + m / 60 + s / 3600
@@ -33,7 +33,7 @@ def getLoc():
 		
 
 root.title('PhotoCalculator')
-root.geometry("450x450") 
+root.geometry("400x450") 
 root.resizable(0, 0)
 
 background_image = tk.PhotoImage(file='Plane.png')
@@ -49,7 +49,7 @@ Picfolder_entry = tk.Entry(root,bd = 2)
 Picfolder_entry.place(x=150,y=50,width=200)
 
 Get_location = tk.Button(root, text = "Get coordinates",font=("Courier", 12,"bold"),bg="#F2DDEC",activebackground = "grey",command = getLoc)
-Get_location.place(width="140px",x = 120 , y = 100)
+Get_location.place(width="140px",x = 100 , y = 100)
 
 
 root.mainloop()
