@@ -36,9 +36,9 @@ root.title('PhotoCalculator')
 root.geometry("400x450") 
 root.resizable(0, 0)
 
-background_image = tk.PhotoImage(file='Plane.png')
-background_label = tk.Label(root, image=background_image)
-background_label.place(relwidth=1, relheight=1)
+#background_image = tk.PhotoImage(file='Plane.png')    //uncomment to add background 
+#background_label = tk.Label(root, image=background_image) //""
+#background_label.place(relwidth=1, relheight=1) //""
 
 text_box = tk.Text(root, width = 40, height = 16,borderwidth=3)
 text_box.place(x=40,y=150)
