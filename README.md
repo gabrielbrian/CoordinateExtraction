@@ -1,2 +1,2 @@
 # CoordinateExtraction
-python app for batch extracting and formatting coordinates.
+Small tkinter app for extracting and formatting coordinates from the exif data in images.
