@@ -45,6 +45,7 @@ text_box.place(x=40,y=150)
 
 Picfolder = tk.Label(root,font=("Courier", 8),bg="#C5F0CE",text="Folder path :",bd = 2)
 Picfolder.place(x=50,y=50)
+
 Picfolder_entry = tk.Entry(root,bd = 2)
 Picfolder_entry.place(x=150,y=50,width=200)
 
